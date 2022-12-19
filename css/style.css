@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 46px;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration-style: solid;
+}
+
+nav {
+  /* padding-top: 15px; */
+  /* margin-right: 50px; */
+  /* margin-left: 50px; */
+  position: absolute;
+  right: 55px;
+  float: right;
+  font-family: cursive;
+  font-size: 22px;
+  text-underline-offset: 8px;
+}
+
+#logo {
+  background-color: rgb(174, 218, 212);
+  /* border-bottom: 5px solid #ff6200; */
+  position: absolute;
+  left: 0px;
+  top: 9px;
+  height: 60px;
+  padding-left: 80px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(60, 60, 80);
+  /* max-width: 550px; */
+}
+
+#cool {
+  background-color: rgb(174, 218, 212);
+  float: right;
+  position: absolute;
+  top: 160px;
+  height: 50px;
+  right: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(60, 60, 80);
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+  /* color: rgb(120, 201, 191); */
+}
+
+li a {
+  color: rgb(174, 218, 212);
+}
+
+.header {
+  padding: 20px;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  background-color: rgb(60, 60, 80);
+  /* color: #ffffff; */
+  height: 80px;
+}
+
+.hero-banner {
+  Display: grid;
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+.hero-banner h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.section-title {
+  margin-right: 10px;
+  padding: 20px;
+  clear: both;
+  float: left;
+  width: 25%;
+  height: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+
+.about-section-title, .work-section-title, .contact-section-title {
+  /* margin-top: 10px; */
+  margin-bottom: 50px;
+  position: relative;
+  top: 5px;
+  color: rgb(60, 60, 80);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-right: 5px solid rgb(60, 60, 80);
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 100px;
+  /* max-width: 300px; */
+}
+
+.about-section-title {
+  height: 200px;
+  /* padding: 0px 15px 120px 60px; */
+}
+
+.work-section-title {
+  height: 800px;
+  /* padding: 0px 15px 800px 60px; */
+}
+
+.contact-section-title {
+  height: 130px;
+  /* padding: 0px 15px 0px 60px; */
+}
+
+.about-section-title h2 {
+  /* margin-bottom: 10px; */
+  text-align: right;
+  font-size: 42px;
+}
+
+.work-section-title h2 {
+  /* margin-bottom: 10px; */
+  text-align: right;
+  font-size: 42px;
+}
+
+.contact-section-title h2 {
+  /* margin-bottom: 10px; */
+  text-align: right;
+  font-size: 42px;
+}
+
+.aboutme-section, .surf-section, .led-section .calculator-section .puzzels-section .buddy-section .contact-section {
+  top: 5px;
+  color: rgb(60, 60, 80);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.surf-section {
+  position: relative;
+  top: 50px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  /* height: 130px; */
+  max-width: 1000px;
+  position: relative;
+  /* top: 75px; */
+}
+
+.contact-section a {
+  padding: 20px 40px;
+  color: rgb(60, 60, 80);
+  font-family: cursive;
+  font-size: 20px;
+  text-underline-offset: 8px;
+}
+
+#infoGrid {
+  /* margin: 0px 5%; */
+  display: grid;
+  grid-template-rows: 100px 100px 150px 150px 150px 200px 200px 100px;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-areas:
+  "about aboutme aboutme"
+  "about aboutme aboutme"
+  "work surf surf"
+  "work surf surf"
+  "work surf surf"
+  "work led calculator"
+  "work puzzels buddy"
+  "contactme contact contact"
+  ;
+}
+
+#about {
+  grid-area: about;
+}
+
+#aboutme {
+  grid-area: aboutme;
+}
+
+#work {
+  grid-area: work;
+}
+
+#surf {
+  grid-area: surf;
+  background-image: url('../images/02-portfolio-4.jpg');
+  background-repeat: no-repeat;
+  /* background-position: 25% 75%; */
+  height: 400px;
+  width: 1100px;
+  padding-left: 50px;
+}
+
+#led {
+  grid-area: led;
+  background-image: url('../images/02-portfolio-1.jpg');
+  background-repeat: no-repeat;
+  /* width: 550px; */
+}
+
+#calculator {
+  grid-area: calculator;
+  background-image: url('../images/02-portfolio-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 550px; */
+}
+
+#puzzels {
+  grid-area: puzzels;
+  background-image: url('../images/02-portfolio-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 550px; */
+}
+
+#buddy {
+  grid-area: buddy;
+  background-image: url('../images/02-run-buddy.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 550px; */
+}
+
+#contactme {
+  grid-area: contactme;
+}
+
+#contact {
+  grid-area: contact;
+  position: relative;
+  top: 70px;
+}
+
+.infoGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
