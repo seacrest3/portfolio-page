@@ -268,7 +268,7 @@ li a {
 
 #surf {
   grid-area: surf;
-  background-image: url('../images/02-portfolio-4.jpg');
+  background: url('../images/02-portfolio-4.jpg');
   background-repeat: no-repeat;
   /* background-position: 25% 75%; */
   /* height: 600px; */
@@ -284,7 +284,7 @@ li a {
 
 #led {
   grid-area: led;
-  background-image: url('../images/02-portfolio-1.jpg');
+  background: url('../images/02-portfolio-1.jpg');
   background-repeat: no-repeat;
   margin-left: 30px;
   /* margin-right: 30px; */
@@ -297,7 +297,7 @@ li a {
 
 #calculator {
   grid-area: calculator;
-  background-image: url('../images/02-portfolio-2.jpg');
+  background: url('../images/02-portfolio-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 130px;
@@ -310,7 +310,7 @@ li a {
 
 #puzzels {
   grid-area: puzzels;
-  background-image: url('../images/02-portfolio-3.jpg');
+  background: url('../images/02-portfolio-3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 30px;
@@ -323,7 +323,7 @@ li a {
 
 #buddy {
   grid-area: buddy;
-  background-image: url('../images/02-run-buddy.jpg');
+  background: url('../images/02-run-buddy.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 130px;
