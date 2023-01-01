@@ -171,18 +171,52 @@ li a {
   font-size: 42px;
 }
 
-.aboutme-section, .surf-section, .led-section .calculator-section .puzzels-section .buddy-section .contact-section {
-  top: 5px;
+.aboutme-section, .surf-section, .led-section, .calculator-section, .puzzels-section, .buddy-section, .contact-section {
+  position: relative;
+  top: 50px;
+  text-align: left;
   color: rgb(60, 60, 80);
   background-color: rgba(255, 255, 255, 0.8);
-  margin-right: 130px;
-  padding-left: 20px;
+  margin-right: 150px;
+  margin-bottom: 70px;
+  padding-left: 10px;
+  /* padding-bottom: 20px; */
 }
 
 .surf-section {
   position: relative;
   top: 50px;
+  margin-right: 900px;
 }
+
+.led-section {
+  position: relative;
+  top: 50px;
+  margin-right: 410px;
+}
+
+.calculator-section {
+  position: relative;
+  top: 50px;
+  margin-right: 370px;
+}
+
+.puzzels-section {
+  margin-right: 350px;
+}
+
+.aboutme-section {
+  position: relative;
+  top: 80px;
+  padding-left: 30px;
+}
+
+
+
+/* .surf-section {
+  position: relative;
+  top: 50px;
+} */
 
 .contact-section {
   display: flex;
