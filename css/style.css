@@ -278,6 +278,10 @@ li a {
   margin-top: 90px;
 }
 
+#surf:hover {
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-portfolio-4.jpg');
+}
+
 #led {
   grid-area: led;
   background-image: url('../images/02-portfolio-1.jpg');
@@ -285,6 +289,10 @@ li a {
   margin-left: 30px;
   /* margin-right: 30px; */
   /* width: 550px; */
+}
+
+#led:hover {
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-portfolio-1.jpg');
 }
 
 #calculator {
@@ -296,6 +304,10 @@ li a {
   /* width: 550px; */
 }
 
+#calculator:hover {
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-portfolio-2.jpg');
+}
+
 #puzzels {
   grid-area: puzzels;
   background-image: url('../images/02-portfolio-3.jpg');
@@ -305,6 +317,10 @@ li a {
   /* width: 550px; */
 }
 
+#puzzels:hover {
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-portfolio-3.jpg');
+}
+
 #buddy {
   grid-area: buddy;
   background-image: url('../images/02-run-buddy.jpg');
@@ -312,6 +328,10 @@ li a {
   background-position: center;
   margin-right: 130px;
   /* width: 550px; */
+}
+
+#buddy:hover {
+  background: linear-gradient(0deg, rgba(72, 152, 214, 0.3), rgba(72, 152, 214, 0.3)), url('../images/02-run-buddy.jpg');
 }
 
 #contactme {
