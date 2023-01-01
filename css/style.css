@@ -1,3 +1,5 @@
+/* Unit 2 Challenge: Portfolio */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,6 +13,7 @@ body {
   line-height: 1.5;
 }
 
+/* HTML tags */
 h1 {
     display: inline-block;
     font-size: 46px;
@@ -34,6 +37,7 @@ a {
   text-decoration-style: solid;
 }
 
+/* Navigation bar */
 nav {
   position: absolute;
   right: 55px;
@@ -43,6 +47,14 @@ nav {
   text-underline-offset: 8px;
 }
 
+/* Main logo and navigation links */
+
+.header {
+  padding: 20px;
+  background-color: rgb(60, 60, 80);
+  height: 80px;
+}
+
 #logo {
   background-color: rgb(174, 218, 212);
   position: absolute;
@@ -50,19 +62,6 @@ nav {
   top: 9px;
   height: 60px;
   padding-left: 80px;
-  padding-right: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(60, 60, 80);
-}
-
-#cool {
-  background-color: rgb(174, 218, 212);
-  float: right;
-  position: absolute;
-  top: 160px;
-  height: 50px;
-  right: 150px;
-  padding-left: 10px;
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(60, 60, 80);
@@ -83,10 +82,18 @@ li a {
   color: rgb(174, 218, 212);
 }
 
-.header {
-  padding: 20px;
-  background-color: rgb(60, 60, 80);
-  height: 80px;
+/* Banner */
+#cool {
+  background-color: rgb(174, 218, 212);
+  float: right;
+  position: absolute;
+  top: 160px;
+  height: 50px;
+  right: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(60, 60, 80);
 }
 
 .hero-banner {
@@ -115,7 +122,7 @@ li a {
   background-color: #ffffff;
 }
 
-
+/* Section title */
 .about-section-title, .work-section-title, .contact-section-title {
   margin-bottom: 50px;
   position: relative;
@@ -155,37 +162,44 @@ li a {
   font-size: 42px;
 }
 
+/* Portfolio section content */
 .aboutme-section, .surf-section, .led-section, .calculator-section, .puzzels-section, .buddy-section, .contact-section {
   position: relative;
   top: 50px;
   text-align: left;
   color: rgb(60, 60, 80);
-  background-color: rgba(255, 255, 255, 0.8);
   margin-right: 150px;
   margin-bottom: 70px;
   padding-left: 10px;
 }
 
+.aboutme-section {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .surf-section {
-  position: relative;
-  top: 50px;
   margin-right: 900px;
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
 .led-section {
-  position: relative;
-  top: 50px;
-  margin-right: 410px;
+  margin-right: 400px;
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
 .calculator-section {
-  position: relative;
-  top: 50px;
-  margin-right: 370px;
+  margin-right: 360px;
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
 .puzzels-section {
-  margin-right: 350px;
+  margin-right: 335px;
+  background-color: rgba(0, 255, 255, 0.8);
+}
+
+.buddy-section {
+  margin-right: 370px;
+  background-color: rgba(0, 255, 255, 0.8);
 }
 
 .aboutme-section {
@@ -211,6 +225,7 @@ li a {
   text-underline-offset: 8px;
 }
 
+/* Portfolio grid */
 #infoGrid {
   display: grid;
   grid-template-rows: 100px 100px 243px 242px 200px 200px 100px;
@@ -224,6 +239,16 @@ li a {
   "work puzzels buddy"
   "contactme contact contact"
   ;
+}
+
+.infoGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 #about {
@@ -322,14 +347,4 @@ li a {
   grid-area: contact;
   position: relative;
   top: 70px;
-}
-
-.infoGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
 }
