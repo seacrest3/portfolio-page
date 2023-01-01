@@ -66,7 +66,7 @@ nav {
   position: absolute;
   top: 160px;
   height: 50px;
-  right: 55px;
+  right: 150px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -175,7 +175,7 @@ li a {
   top: 5px;
   color: rgb(60, 60, 80);
   background-color: rgba(255, 255, 255, 0.8);
-  padding-right: 50px;
+  margin-right: 130px;
   padding-left: 20px;
 }
 
@@ -206,14 +206,14 @@ li a {
 #infoGrid {
   /* margin: 0px 5%; */
   display: grid;
-  grid-template-rows: 100px 100px 150px 150px 150px 200px 200px 100px;
-  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 100px 100px 243px 242px 200px 200px 100px;
+  grid-template-columns: 20% 37% 43%;
   grid-template-areas:
   "about aboutme aboutme"
   "about aboutme aboutme"
   "work surf surf"
   "work surf surf"
-  "work surf surf"
+  /* "work surf surf" */
   "work led calculator"
   "work puzzels buddy"
   "contactme contact contact"
@@ -237,15 +237,19 @@ li a {
   background-image: url('../images/02-portfolio-4.jpg');
   background-repeat: no-repeat;
   /* background-position: 25% 75%; */
-  height: 400px;
-  width: 1100px;
-  padding-left: 50px;
+  /* height: 600px; */
+  /* width: 1100px; */
+  margin-left: 30px;
+  margin-right: 130px;
+  margin-top: 90px;
 }
 
 #led {
   grid-area: led;
   background-image: url('../images/02-portfolio-1.jpg');
   background-repeat: no-repeat;
+  margin-left: 30px;
+  /* margin-right: 30px; */
   /* width: 550px; */
 }
 
@@ -254,6 +258,7 @@ li a {
   background-image: url('../images/02-portfolio-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 130px;
   /* width: 550px; */
 }
 
@@ -262,6 +267,7 @@ li a {
   background-image: url('../images/02-portfolio-3.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 30px;
   /* width: 550px; */
 }
 
@@ -270,6 +276,7 @@ li a {
   background-image: url('../images/02-run-buddy.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  margin-right: 130px;
   /* width: 550px; */
 }
 
